@@ -14,5 +14,12 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "FootballApp"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
- 
+include(":core")
+include(":core:network")
+include(":core:data")
+include(":core:common")
+include(":feature")
+include(":feature:fixtures")

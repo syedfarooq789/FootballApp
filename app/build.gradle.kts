@@ -65,4 +65,7 @@ dependencies {
     androidTestImplementation(libs.bundles.compose)
     debugImplementation(libs.bundles.compose)
     debugImplementation(libs.bundles.compose)
+
+    implementation(projects.core.common)
+    implementation(projects.core.data)
 }

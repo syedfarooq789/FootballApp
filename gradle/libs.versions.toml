@@ -8,6 +8,8 @@ lifecycle-runtime-ktx = "2.6.2"
 bom = "2023.10.01"
 android-gradle = "8.1.1"
 kotlin = "1.8.10"
+appcompat = "1.6.1"
+material = "1.11.0"
 
 
 [libraries]
@@ -25,6 +27,8 @@ compose-junit-test = { module = "androidx.compose.ui:ui-test-junit4" }
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 compose-ui-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
 junit = { module = "junit:junit", version.ref = "junit" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 
 [bundles]
@@ -41,3 +45,4 @@ compose = [
 [plugins]
 android-application = { id = "com.android.application", version.ref = "android-gradle" }
 android-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+com-android-library = { id = "com.android.library", version.ref = "android-gradle" }
