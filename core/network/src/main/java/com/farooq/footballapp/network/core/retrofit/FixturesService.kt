@@ -1,7 +1,7 @@
-package com.farooq.network.core.retrofit
+package com.farooq.footballapp.network.core.retrofit
 
-import com.farooq.network.core.model.Fixtures
-import com.farooq.network.core.model.NetworkResponse
+import com.farooq.footballapp.network.core.model.Fixtures
+import com.farooq.footballapp.network.core.model.NetworkResponse
 import retrofit2.http.GET
 
 /**

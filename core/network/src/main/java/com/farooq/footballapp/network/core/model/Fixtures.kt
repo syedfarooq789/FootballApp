@@ -1,7 +1,12 @@
-package com.farooq.network.core.model
+package com.farooq.footballapp.network.core.model
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Created by Syed Farooq Hassan on 12/28/2023.
+ *
+ * Data class for api call.
+ */
 data class Fixtures(
     @SerializedName("id") var id: Int? = null,
     @SerializedName("sport_id") var sportId: Int? = null,

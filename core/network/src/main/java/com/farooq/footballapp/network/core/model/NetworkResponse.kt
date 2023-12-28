@@ -1,4 +1,4 @@
-package com.farooq.network.core.model
+package com.farooq.footballapp.network.core.model
 
 import kotlinx.serialization.Serializable
 

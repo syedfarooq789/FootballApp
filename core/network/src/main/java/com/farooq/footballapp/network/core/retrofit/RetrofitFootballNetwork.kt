@@ -1,4 +1,4 @@
-package com.farooq.network.core.retrofit
+package com.farooq.footballapp.network.core.retrofit
 
 import dagger.Module
 import dagger.Provides
