@@ -23,7 +23,7 @@ fun NavController.navigateToFixtures(navOptions: NavOptions? = null) {
  *
  * Defined fixtures screen.
  */
-fun NavGraphBuilder.fixtureScreen(onTopicClick: (String) -> Unit) {
+fun NavGraphBuilder.fixtureScreen() {
     composable(
         route = fixtureRoute
     ) {

@@ -1,6 +1,15 @@
 package com.farooq.footballapp.fixtures
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+
+
+@Composable
+internal fun FixturesRoute(
+    modifier: Modifier = Modifier
+) {
+    FixturesScreen()
+}
 
 
 /**
@@ -9,6 +18,6 @@ import androidx.compose.runtime.Composable
  * Fixtures Screen.
  */
 @Composable
-internal fun FixturesScreen(){
+internal fun FixturesScreen() {
 
 }
