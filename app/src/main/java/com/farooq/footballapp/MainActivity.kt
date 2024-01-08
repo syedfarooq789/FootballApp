@@ -7,7 +7,7 @@ import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSiz
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import com.farooq.footballapp.data.util.NetworkMonitor
 import com.farooq.footballapp.ui.FootballApp
-import com.farooq.footballapp.ui.theme.FootballAppTheme
+import com.farooq.footballapp.designsystem.theme.FootballAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

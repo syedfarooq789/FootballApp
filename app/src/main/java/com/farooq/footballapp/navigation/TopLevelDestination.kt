@@ -2,7 +2,7 @@ package com.farooq.footballapp.navigation
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.farooq.footballapp.R
-import com.farooq.footballapp.designsystem.FootballIcons
+import com.farooq.footballapp.designsystem.icon.FootballIcons
 
 /**
  * Created by Syed Farooq Hassan on 12/27/2023.
