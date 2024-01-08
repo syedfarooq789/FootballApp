@@ -1,5 +1,6 @@
 package com.farooq.footballapp.data.util
 
+import dagger.Provides
 import kotlinx.coroutines.flow.Flow
 
 
