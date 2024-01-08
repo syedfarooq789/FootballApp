@@ -3,11 +3,8 @@ plugins {
 }
 
 android {
-    namespace = "com.farooq.network"
+    namespace = "com.farooq.ui"
 }
 
 dependencies {
-    implementation(projects.core.common)
 }
-
-
