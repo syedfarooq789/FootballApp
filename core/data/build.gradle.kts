@@ -9,4 +9,8 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
+
+    api(projects.core.model)
+    api(projects.core.common)
+    api(projects.core.network)
 }

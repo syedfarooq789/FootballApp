@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.footballapp.android.library)
+    alias(libs.plugins.footballapp.android.hilt)
 }
 
 android {
@@ -9,5 +10,4 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.compose.material3)
 }

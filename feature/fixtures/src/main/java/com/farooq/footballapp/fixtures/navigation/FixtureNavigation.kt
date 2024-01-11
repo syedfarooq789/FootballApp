@@ -4,7 +4,7 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
-import com.farooq.footballapp.fixtures.FixturesScreen
+import com.farooq.footballapp.fixtures.FixturesRoute
 
 
 const val fixtureRoute = "fixtures/"
@@ -27,6 +27,6 @@ fun NavGraphBuilder.fixtureScreen() {
     composable(
         route = fixtureRoute
     ) {
-        FixturesScreen()
+        FixturesRoute()
     }
 }

@@ -1,4 +1,4 @@
-package com.farooq.footballapp.network.core.model
+package com.farooq.footballapp.model.data
 
 import com.google.gson.annotations.SerializedName
 

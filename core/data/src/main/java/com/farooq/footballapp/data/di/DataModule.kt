@@ -1,5 +1,7 @@
 package com.farooq.footballapp.data.di
 
+import com.farooq.footballapp.data.repository.FixturesRepository
+import com.farooq.footballapp.data.repository.FixturesRepositoryImpl
 import com.farooq.footballapp.data.util.ConnectivityManagerNetworkMonitor
 import com.farooq.footballapp.data.util.NetworkMonitor
 import dagger.Binds
@@ -18,4 +20,9 @@ abstract class DataModule {
     internal abstract fun bindsNetworkMonitor(
         networkMonitor: ConnectivityManagerNetworkMonitor,
     ): NetworkMonitor
+
+    @Binds
+    internal abstract fun bindsFixturesRepository(
+        fixturesRepositoryImpl: FixturesRepositoryImpl
+    ): FixturesRepository
 }

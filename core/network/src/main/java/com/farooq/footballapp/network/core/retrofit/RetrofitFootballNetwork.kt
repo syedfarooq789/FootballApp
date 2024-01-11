@@ -33,16 +33,16 @@ object RetrofitFootballNetwork {
     }
 
     @Singleton
-    private val networkApi: Retrofit = Retrofit.Builder()
-        .baseUrl(FOOTBALL_API_BASE_URL)
+    @Provides
+    fun provideRetrofit(): Retrofit = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
+        .baseUrl(FOOTBALL_API_BASE_URL)
         .client(provideHttpClient())
         .build()
 
     @Provides
     @Singleton
-    internal fun provideFixturesApi(retrofit: Retrofit): FixturesService {
-        return retrofit
-            .create(FixturesService::class.java)
-    }
+    internal fun provideFixturesApi(retrofit: Retrofit): FixturesService = retrofit
+        .create(FixturesService::class.java)
+
 }

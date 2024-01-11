@@ -21,6 +21,6 @@ enum class TopLevelDestination(
         selectedIcon = FootballIcons.Home,
         unselectedIcon = FootballIcons.Home,
         iconTextId = R.string.app_name,
-        titleTextId = com.farooq.fixtures.R.string.for_you
+        titleTextId = com.farooq.fixtures.R.string.fixtures
     ),
 }
