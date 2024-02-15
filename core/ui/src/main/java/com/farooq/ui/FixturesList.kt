@@ -1,7 +1,7 @@
 package com.farooq.ui
 
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.material3.Text
+import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 
 
@@ -18,12 +18,12 @@ fun FixturesList(fixturesListState: FixturesListState) {
         FixturesListState.Loading -> Unit
         is FixturesListState.Shown -> {
             LazyColumn {
-                items(fixturesListState.fixtures.size) { index ->
-                    Text(text = "Item: $index")
+                items(fixturesListState.fixtures) {
+                    FixturesCard(it)
                 }
+
             }
 
         }
     }
-
 }

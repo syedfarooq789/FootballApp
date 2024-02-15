@@ -11,7 +11,7 @@ import com.farooq.footballapp.designsystem.icon.FootballIcons
  *   next within a single destination will be handled directly in composables.
  *
  */
-enum class TopLevelDestination(
+    enum class TopLevelDestination(
     val selectedIcon: ImageVector,
     val unselectedIcon: ImageVector,
     val iconTextId: Int,
@@ -21,6 +21,6 @@ enum class TopLevelDestination(
         selectedIcon = FootballIcons.Home,
         unselectedIcon = FootballIcons.Home,
         iconTextId = R.string.app_name,
-        titleTextId = com.farooq.fixtures.R.string.fixtures
+        titleTextId = R.string.app_name
     ),
 }

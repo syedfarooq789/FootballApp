@@ -9,6 +9,7 @@ android {
 
 dependencies {
     api(projects.core.model)
+    api(projects.core.designsystem)
 
     api(libs.androidx.compose.foundation)
     api(libs.androidx.compose.foundation.layout)
